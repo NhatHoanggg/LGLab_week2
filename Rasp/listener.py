@@ -8,7 +8,7 @@ EXPECTED_SRC_IPv6 = "fd53:abcd:123:5::10"
 EXPECTED_DST_IPv6 = "fd53:abcd:123:5::14"
 EXPECTED_SPORT = 13400
 EXPECTED_DPORT = 13400
-EXPECTED_VLAN_ID = 5
+EXPECTED_VLAN_ID = 1
 
 def packet_callback(packet):
     """
